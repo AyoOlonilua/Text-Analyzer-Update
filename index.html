@@ -9,7 +9,34 @@
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <title>Text Analyzer</title>
 </head>
-<body>
+<body class="p-4">
+    <section class="container">
+        <h2 class="text-success text-center p-2 font-weight-bold">Text Analyzer</h2>
+      <form id="word-counter">
+        <div class="form-group text-success font-weight-bold">
+          <p>Input a text passage to get a total word count:</p>
+          <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
+          <p class="mt-2">Optionally enter a word to count the number of times it occurs in the passage:</p>
+          <input type="text" id="word" name="word" class="form-control">
+          <br>
+
+          <button type="submit" class="btn btn-success">Submit Survey</button>
+        </div>
+      </form>
+
+      <div class="p-3 mt-4">
+        <h4 class="text-success font-weight-bold text-center">Most Common Words</h4>
+        <p class="font-weight-bold">Common Words:
+          <h5 class="p-2 bg-white"><span id="most-used"></span></h5>
+        </p>
+
+        <div class="mt-4">
+          <p>Total Word Count: <span id="total-count"></span></p>
+          <p>Selected Words: <span id="selected-words"></span></p>
+          <p>Passage: <span id="passage"></span></p>
+        </div>
+      </div>
+    </section>
     
 </body>
 </html>

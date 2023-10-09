@@ -15,7 +15,7 @@ By AYO-OLONILUA AYOMIPE
 
 # Description
 
-It is used to independently classify, sort, and extract information from text to identify patterns, relationships, sentiments, and other actionable knowledge.
+It provides several functions for word processing and text analysis. It removes offensive words, extracts common words, bolds occurrences of a specific word, counts the total number of words, and counts the occurrences of a specific word in a text. It also handles form submission and updates the UI with the results.
 
 # Setup/Installation Requirements
 

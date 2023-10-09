@@ -57,7 +57,7 @@ function getCommonWords(text) {
 
   });
 
-// sort in descending order
+// Sort in descending order
   commonWords.sort(function(a, b) {
     return b.count - a.count;
   });
